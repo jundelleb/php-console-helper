@@ -1,4 +1,6 @@
 # PHP Console Helpers
+[![Latest Stable Version](https://poser.pugx.org/jundelleb/php-console-helper/v/stable)](https://packagist.org/packages/jundelleb/php-console-helper) [![Total Downloads](https://poser.pugx.org/jundelleb/php-console-helper/downloads)](https://packagist.org/packages/jundelleb/php-console-helper) [![Latest Unstable Version](https://poser.pugx.org/jundelleb/php-console-helper/v/unstable)](https://packagist.org/packages/jundelleb/php-console-helper) [![License](https://poser.pugx.org/jundelleb/php-console-helper/license)](https://packagist.org/packages/jundelleb/php-console-helper)
+
 A simple command-line helper functions built for developers. This package uses the following libraries:
 
 * fzaninotto's [Faker](https://github.com/fzaninotto/Faker)
