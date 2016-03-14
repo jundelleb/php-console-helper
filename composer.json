@@ -1,0 +1,20 @@
+{
+    "name": "jundelleb/php-console-helper",
+    "description": "A simple command-line helper functions built for developers.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jundelle Boyles",
+            "email": "jundelle.boyles@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "~2.0",
+        "fzaninotto/faker": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pch\\": "src/"
+        }
+    }
+}

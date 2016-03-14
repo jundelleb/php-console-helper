@@ -1,0 +1,16 @@
+#! /usr/bin/env php
+
+<?php
+
+use Symfony\Component\Console\Application;
+
+require 'vendor/autoload.php';
+
+$app = new Application('PHP Console Helper', '1.0');
+
+// Add Faker Command
+$app->add(new Pch\FakerCommand);
+// Add Convert Commands
+$app->addCommands(\Pch\ConvertCommand::getAll());
+
+$app->run();
