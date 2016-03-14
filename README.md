@@ -17,22 +17,27 @@ Helpers
 
 Basic Usage
 ------------
- ###### 1. Generate random name: `./pch faker name`
- Output: `Isom Medhurst`
+1. Generate random name: `./pch faker name`
+
+        Output: Isom Medhurst
  
- ###### 2. Generate a sentence with 10 words: `./pch faker sentence --params=10`
- Output: `Aut qui et eum itaque voluptatibus qui rem sit blanditiis.`
+2. Generate a sentence with 10 words: `./pch faker sentence --params=10`
+
+        Output: Aut qui et eum itaque voluptatibus qui rem sit blanditiis.
  
  Please visit [Faker](https://github.com/fzaninotto/Faker) for complete lists of available formatters.
  
- ###### 3. Convert input string to md5: `./pch convert:md5 test`
- Output: `098f6bcd4621d373cade4e832627b4f6`
+3. Convert input string to md5: `./pch convert:md5 test`
+
+        Output: 098f6bcd4621d373cade4e832627b4f6
  
- ###### 4. Convert input string to base64 encoded: `./pch convert:base64 test`
- Output: `dGVzdA==`
+4. Convert input string to base64 encoded: `./pch convert:base64 test`
+
+        Output: dGVzdA==
  
- ###### 5. Decode base64 encoded string: `./pch convert:base64 dGVzdA== --decode`
- Output: `test`
+5. Decode base64 encoded string: `./pch convert:base64 dGVzdA== --decode`
+
+        Output: test
 
 
 Enjoy! :)
