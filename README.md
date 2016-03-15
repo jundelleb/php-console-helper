@@ -7,10 +7,8 @@ A simple command-line helper functions built for developers. This package uses t
 
 Getting Setup
 ------------
-1. `git clone https://github.com/jundelleb/php-console-helper.git php-console-helper`
-
-2. Add to `PATH` enviroment variables to access it globally.
-3. Make it executable for unix based systems `chmod +x pch`.
+1. `composer global require jundelleb/php-console-helper`
+2. Make sure to dd to `PATH` enviroment variables to access it globally.
 
 Helpers
 ------------
